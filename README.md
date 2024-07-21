@@ -43,16 +43,15 @@ These instructions will get you a copy of the backend project up and running on 
 2. Move to the todo-app directory:
    
     cd todo-app
+    cd backend
    
 
-3. Install the dependencies:
+4. Install the dependencies:
     
     npm install
     npm install express mongoose dotenv cors nodemon
-    npm install swagger-jsdoc swagger-ui-express
-    
-
-4. Create a `.env` file in the root of the project and add your MongoDB URI:
+   
+5. Create a `.env` file in the root of the project and add your MongoDB URI:
    
     PORT=5000
     MONGO_URI=your_mongo_uri_here
