@@ -1,8 +1,9 @@
-# ToDo-App
+# ToDo Application Backend
 
-# Todo-App Backend
+## Overview
 
-This project is a simple To-Do application backend built with Node.js and Express. It allows users to create, read, update, and delete to-do items.
+This is the backend for a ToDo application built with Node.js and Express.js. It provides a RESTful API to perform CRUD operations on ToDo items.
+
 
 ## Features
 
@@ -73,10 +74,11 @@ These instructions will get you a copy of the backend project up and running on 
 
 ## API Endpoints
 
-- `GET /api/todos`: Fetch all todos.
-- `POST /api/todos`: Add a new todo.
-- `PATCH /api/todos/:id`: Update an existing todo.
-- `DELETE /api/todos/:id`: Delete a todo.
+- **GET /api/get**: Retrieve all ToDo items for a given email.
+- **POST /api/save**: Create a new ToDo item.
+- **PUT /api/update/:id**: Update a ToDo item by ID.
+- **PATCH /api/update/:id**: Partially update a ToDo item by ID.
+- **DELETE /api/delete/:id**: Delete a ToDo item by ID.
 
 ## Running Tests
 
